@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0be8124b-9446-4468-8234-bb677281519d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@R3CN70BM0EJ]" />
+  <component name="ProjectId" id="1tzhgKuWQIYtkzvl8nVsGOEfMF6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="Cordova.Build LunaPlayer">
+    <configuration name="Build LunaPlayer" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" value="/usr/local/bin/cordova" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="run" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="android" />
+      <option name="myExtraArgs" value="" />
+      <option name="hasTarget" value="false" />
+      <option name="target" value="" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test LunaPlayer" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" value="/usr/local/bin/cordova" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="emulate" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="android" />
+      <option name="myExtraArgs" value="" />
+      <option name="hasTarget" value="false" />
+      <option name="target" value="" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cordova.Test LunaPlayer" />
+      <item itemvalue="Cordova.Build LunaPlayer" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0be8124b-9446-4468-8234-bb677281519d" name="Default Changelist" comment="" />
+      <created>1623777935825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623777935825</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3220" y="524" width="573" height="367" key="#Notifications" timestamp="1623778701955">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3220" y="524" width="573" height="367" key="#Notifications/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623778701955" />
+    <state x="363" y="299" width="1084" height="924" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623870644230">
+      <screen x="0" y="32" width="2560" height="1408" />
+    </state>
+    <state x="363" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.2560.1408@0.32.2560.1408" timestamp="1623870644230" />
+    <state x="2923" y="273" width="1084" height="924" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623785269622" />
+    <state x="3031" y="301" width="978" height="920" key="EnvironmentVariablesDialog" timestamp="1623779071611">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3031" y="301" width="978" height="920" key="EnvironmentVariablesDialog/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623779071611" />
+    <state width="1440" height="370" key="GridCell.Tab.0.bottom" timestamp="1623870548835">
+      <screen x="0" y="32" width="2560" height="1408" />
+    </state>
+    <state width="1440" height="370" key="GridCell.Tab.0.bottom/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
+    <state width="1670" height="422" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
+    <state width="1440" height="370" key="GridCell.Tab.0.center" timestamp="1623870548835">
+      <screen x="0" y="32" width="2560" height="1408" />
+    </state>
+    <state width="1440" height="370" key="GridCell.Tab.0.center/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
+    <state width="1670" height="422" key="GridCell.Tab.0.center/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
+    <state width="1440" height="370" key="GridCell.Tab.0.left" timestamp="1623870548835">
+      <screen x="0" y="32" width="2560" height="1408" />
+    </state>
+    <state width="1440" height="370" key="GridCell.Tab.0.left/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
+    <state width="1670" height="422" key="GridCell.Tab.0.left/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
+    <state width="1440" height="370" key="GridCell.Tab.0.right" timestamp="1623870548835">
+      <screen x="0" y="32" width="2560" height="1408" />
+    </state>
+    <state width="1440" height="370" key="GridCell.Tab.0.right/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
+    <state width="1670" height="422" key="GridCell.Tab.0.right/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
+    <state x="2916" y="250" width="1022" height="737" key="SettingsEditor" timestamp="1623779466515">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2916" y="250" width="1022" height="737" key="SettingsEditor/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623779466515" />
+    <state x="3078" y="307" key="run.anything.popup" timestamp="1623778952111">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3078" y="307" key="run.anything.popup/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623778952111" />
+  </component>
+</project>
