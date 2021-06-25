@@ -1,0 +1,9 @@
+<div class="app-card card-sg" [ngClass]="{'card-bg-panel' : color === 'panel', 'card-sm': size === 'small'}" (touchstart)="touchStart()" (touchend)="touchEnd()" (mousedown)="touchStart()" (mouseup)="touchEnd()">
+  <div class="app-card-icon">
+    <fa-icon [ngClass]="size === 'small' ? 'fa-2x' : 'fa-3x'" [icon]="icon"></fa-icon>
+  </div>
+  <div class="app-card-content">
+    <h3 class="app-card-title" *ngIf="title">{{ title }}</h3>
+    <p class="app-card-subtitle" *ngIf="subtitle"> {{ subtitle }}</p>
+  </div>
+</div>

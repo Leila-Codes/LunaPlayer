@@ -1,0 +1,6 @@
+<luna-card *ngFor="let artist of artists; let i = index;"
+           [icon]="artistIcon"
+           [title]="artist.name || 'Unknown Artist'"
+           [subtitle]="artist.songs.length + ' Track(s)'"
+           [routerLink]="['/artist', artist._id]">
+</luna-card>

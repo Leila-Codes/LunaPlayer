@@ -1,0 +1,53 @@
+<div class="action-buttons">
+  <luna-btn (click)="clearQueue()">
+    <fa-icon [icon]="clearIcon"></fa-icon>
+    Clear
+  </luna-btn>
+</div>
+
+<div class="luna-card-divider">
+  <h6>
+    <fa-icon [icon]="songIcon"></fa-icon>
+    Now Playing (Current)
+  </h6>
+</div>
+<luna-card *ngIf="nowPlaying"
+  [icon]="songIcon"
+  [title]="nowPlaying.title"
+  [subtitle]="nowPlaying.artist"
+  color="panel">
+</luna-card>
+
+<div class="luna-card-divider">
+  <h6>
+    <fa-icon [icon]="listIcon"></fa-icon>
+    Your Up Next
+  </h6>
+</div>
+
+<luna-card
+  *ngFor="let song of userQueue"
+  [icon]="songIcon"
+  [title]="song.title"
+  [subtitle]="song.artist"
+  size="small">
+</luna-card>
+
+<h3 *ngIf="userQueue.length < 1" style="margin: 10px 15px;">No Tracks</h3>
+
+<div class="luna-card-divider">
+  <h6>
+    <fa-icon [icon]="listIcon"></fa-icon>
+    Recommended Tracks (Autoplay)
+  </h6>
+</div>
+
+<luna-card
+  *ngFor="let song of recommendedQueue"
+  [icon]="songIcon"
+  [title]="song.title"
+  [subtitle]="song.artist"
+  size="small">
+</luna-card>
+
+<h3 *ngIf="recommendedQueue.length < 1" style="margin: 10px 15px;">No Tracks</h3>

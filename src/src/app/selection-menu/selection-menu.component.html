@@ -1,0 +1,34 @@
+<luna-action-list
+  *ngIf="selection"
+  [icon]="entityIcon"
+  [title]="selection.title || selection.name">
+
+  <!-- OPTIONS FOR A SINGLE SONG -->
+  <div *ngIf="selectionType === 2">
+    <div class="action-item" (click)="playSelection()">
+      <fa-icon [icon]="playIcon"></fa-icon>
+      Play Now
+    </div>
+    <div class="action-item" (click)="queueSelection()">
+      <fa-icon [icon]="plusIcon"></fa-icon>
+      Add to queue
+    </div>
+    <div class="action-item disabled">
+      <fa-icon [icon]="listIcon"></fa-icon>
+      Add to playlist...
+    </div>
+  </div>
+
+  <!-- OPTIONS FOR AN ALBUM OR ARTIST -->
+  <div *ngIf="selectionType !== 2">
+    <div class="action-item">Play All Now</div>
+    <div class="action-item">Add all to Queue</div>
+  </div>
+
+
+  <div class="action-item item-cancel">
+    <fa-icon [icon]="cancelIcon"></fa-icon>
+    Cancel
+  </div>
+
+</luna-action-list>

@@ -1,0 +1,24 @@
+<div class="nav-container">
+
+  <div class="title-bar">
+    <h1>
+    Luna
+    <fa-icon [icon]="playIcon"></fa-icon>
+    Player
+    </h1>
+  </div>
+
+  <div class="nav-menu">
+    <div class="luna-btn text-white" title="Albums" routerLink="albums/list" routerLinkActive="active">
+      <fa-icon [icon]="albumIcon"></fa-icon>
+    </div>
+
+    <div class="luna-btn text-white" title="Artists" routerLink="artists/list" routerLinkActive="active">
+      <fa-icon [icon]="artistIcon"></fa-icon>
+    </div>
+
+    <div class="luna-btn text-white" title="Catalog" routerLink="catalog/songs" routerLinkActive="active">
+      <fa-icon [icon]="catalogIcon"></fa-icon>
+    </div>
+  </div>
+</div>

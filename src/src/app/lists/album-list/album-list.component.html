@@ -1,0 +1,16 @@
+<!--<div class="app-card card-sg" *ngFor="let album of albums" [routerLink]="['/album', album._id]">
+  <div class="app-card-icon">
+    <fa-icon class="fa-3x" [icon]="albumIcon"></fa-icon>
+  </div>
+  <div class="app-card-content">
+    <h3 class="app-card-title">{{ album.name }}</h3>
+    {{ album.songs.length}} Track(s)
+  </div>
+</div>-->
+
+<luna-card *ngFor="let album of albums; let i = index;"
+           [icon]="albumIcon"
+           [title]="album.name"
+           [subtitle]="album.songs.length + ' Track(s)'"
+           [routerLink]="['/album', album._id]">
+</luna-card>

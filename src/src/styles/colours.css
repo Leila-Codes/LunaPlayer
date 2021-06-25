@@ -1,0 +1,23 @@
+:root {
+  --luna-text: #00B7FF;
+
+  --luna-bg-dark: #1d1f2e;
+  /*--luna-panel-dark: #1e275e;*/
+
+  --luna-white: white;
+
+  --luna-blue-1: #1e275e;
+  --luna-blue-2: #294678;
+  --luna-blue-3: #3a6edc;
+
+  --luna-red-1: #6a011c;
+  --luna-red-2: #c10121;
+  --luna-red-3: #ff234f;
+
+  --luna-panel-bg: rgba(57, 62, 64, 0.34);
+}
+
+body {
+  color: var(--luna-text);
+  background: var(--luna-bg-dark);
+}

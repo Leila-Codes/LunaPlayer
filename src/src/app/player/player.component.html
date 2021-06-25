@@ -1,0 +1,50 @@
+<div class="player-container">
+  <div class="player-progress" (click)="seekTrack($event)">
+    <div class="player-progress-inner" [ngStyle]="{'width': playerPos + '%'}"></div>
+  </div>
+
+  <div class="player-panel-main luna-panel">
+    <div class="playing-info">
+      <!--<div class="album-art" style="border: 1px solid gray; width: 40px; height: 40px; margin: 0 2px;"></div>-->
+      <div class="now-playing-text">
+        <div class="now-playing-title">
+          {{ nowPlaying ? nowPlaying.title : "Nothing"}}
+        </div>
+        <div class="now-playing-subtitle">{{ nowPlaying ? nowPlaying.album : 'Nothing'}}</div>
+      </div>
+    </div>
+
+    <div class="player-controls">
+      <luna-btn (click)="skipBackward()">
+        <fa-icon class="fa-lg" [icon]="skipLeft" [ngClass]="{'disabled': !canBackward}"></fa-icon>
+      </luna-btn>
+
+      <luna-btn (click)="player.paused ? player.play() : player.pause()">
+        <fa-icon class="fa-2x" [icon]="player.paused ? playIcon : pauseIcon"></fa-icon>
+      </luna-btn>
+
+      <luna-btn (click)="skipForward()" [ngClass]="{'disabled': !canForward}">
+        <fa-icon class="fa-lg" [icon]="skipRight"></fa-icon>
+      </luna-btn>
+    </div>
+
+    <div class="player-settings">
+      <luna-btn (click)="volumeOpen = !volumeOpen" *ngIf="!isMobile()" (dblclick)="toggleMute()">
+        <fa-icon class="fa-lg" [icon]="isMuted ? mutedIcon : volumeIcon"></fa-icon>
+      </luna-btn>
+
+      <luna-btn routerLink="/playlist">
+        <fa-icon class="fa-lg" [icon]="listIcon"></fa-icon>
+      </luna-btn>
+    </div>
+  </div>
+</div>
+
+<div class="volume-control" *ngIf="volumeOpen">
+  <div class="slider-control-horizontal" (click)="adjustVolume($event)">
+    <div class="slider-control-inner" [ngStyle]="{'height': playerVol + '%'}">
+
+    </div>
+  </div>
+</div>
+

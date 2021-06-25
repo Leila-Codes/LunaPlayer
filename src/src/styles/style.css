@@ -1,0 +1,139 @@
+body {
+  padding: 5px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #1d1f2e;
+  height: 95vh;
+  overflow-y: hidden;
+  color: #00B7FF;
+
+}
+
+.h-fill {
+  height: 82%;
+  overflow-y: auto; }
+
+a {
+  color: #00B7FF; }
+
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.title-bar {
+  background: #1e275e; }
+
+.title-bar > h1 {
+  padding: 0;
+  margin: 0 5px;
+  padding: 10px 5px; }
+
+.app-navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 4px 0; }
+
+.app-nav-btn {
+  flex-grow: 1;
+  background: #1e275e;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  transition: .2s;
+  cursor: pointer; }
+
+.app-nav-btn:hover {
+  background: #174999; }
+
+.app-nav-btn.active {
+  background: #3a6edc;
+  animation: app-nav-active-delay .5s forwards; }
+
+@keyframes app-nav-active-delay {
+  from {
+    background: #1e275e; }
+  to {
+    background: #3a6edc; } }
+
+.bg-panel {
+  background: rgba(57, 62, 64, 0.34); }
+
+.app-card-container {
+  height: 100%;
+  padding: 2px 5px; }
+
+.app-sg {
+  display: grid;
+  grid-template-columns: 10% 70% auto; }
+
+.app-card {
+  cursor: pointer;
+  background: #273650;
+  color: white;
+  margin: 2px;
+  padding: 10px 10px;
+  transition: .2s; }
+
+.in-anim {
+  opacity: 0; }
+
+.app-card-content {
+  margin: 2px 5px; }
+
+.app-card-content > p {
+  font-size: 11pt;
+  margin: 2px 0; }
+
+.m-none {
+  margin: 10px 0 0 0; }
+
+.app-card-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem; }
+
+.app-card-icon {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.app-card-icon > svg {
+  padding: 12px 5px; }
+
+.app-card:hover {
+  background: #294678;
+  box-shadow: 0 0 3px 1px #ddd; }
+
+@keyframes app-card-enter {
+  0% {
+    transform: translateY(100%);
+    opacity: 0; }
+  100% {
+    transform: none;
+    opacity: 1; } }
+
+@keyframes fade-blink {
+  35% {
+    opacity: 1;
+    transform: none; }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1); }
+  65% {
+    opacity: 1;
+    transform: none; } }
+
+.app-icon-blink {
+  animation: fade-blink 1s infinite linear; }
+
+@keyframes text-slide-in {
+  0% {
+    transform: translateX(10%);
+    opacity: 0; }
+  100% {
+    transform: none;
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */

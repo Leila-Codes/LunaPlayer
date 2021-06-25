@@ -1,0 +1,23 @@
+.luna-btn {
+  width: fit-content;
+
+  margin: 2px 6px;
+  padding: 6px 15px;
+  transition: .3s;
+  border-radius: 10px;
+
+  /*border: 1px solid var(--luna-blue-2);*/
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.luna-btn:hover {
+  background-color: var(--luna-panel-bg);
+  border-color: var(--luna-blue-3);
+}
+
+.luna-btn.disabled {
+  color: #333;
+  cursor: not-allowed;
+}

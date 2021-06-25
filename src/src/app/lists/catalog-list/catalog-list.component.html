@@ -1,0 +1,25 @@
+<luna-card
+  *ngIf="entity"
+  [icon]="entityIcon"
+  [title]="entity.name || 'Unknown '"
+  [subtitle]="entity.songs.length + ' Track(s)'"
+  [color]="'panel'">
+</luna-card>
+
+<!-- Only Display list of Songs once entityInfo has been loaded. -->
+<div *ngIf="entity && entity.songs">
+
+  <luna-card
+    *ngFor="let song of entity.songs"
+    [icon]="trackIcon"
+    [title]="song.title"
+    [subtitle]="song.artist"
+    color="default"
+    size="small"
+
+    (click)="enqueue(song._id)"
+
+    (longPressed)="longPressHandler(song)">
+  </luna-card>
+
+</div>

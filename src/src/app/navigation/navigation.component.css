@@ -1,0 +1,53 @@
+.nav-container {
+  background: var(--luna-bg-dark);
+
+  /*display: flex;*/
+  /*flex-grow: 1;*/
+  /*flex-wrap: nowrap;*/
+
+  /*flex-direction: column;*/
+
+  padding: 2px;
+  margin: 0;
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  background: var(--luna-blue-1);
+
+  font-family: "ReggaeOne", monospace;
+}
+
+.title-bar > h1 {
+  flex-grow: 1;
+  text-align: center;
+  margin: 8px 2px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-menu > .luna-btn {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2em;
+}
+
+.app-loading {
+  background: var(--luna-bg-dark);
+  position: relative;
+  height: 8px;
+}
+
+.app-loading-inner {
+  position: absolute;
+  height: 100%;
+
+  background: var(--luna-blue-3);
+}
