@@ -17,6 +17,7 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon src="res/icons/luna-player-foreground.png" density="xxxhdpi"></icon>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
