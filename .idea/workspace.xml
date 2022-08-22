@@ -8,37 +8,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be8124b-9446-4468-8234-bb677281519d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ng/src/app/library/implementation/electron.library.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ILibraryScanner.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/electron.library.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LunaPlayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LunaPlayer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/main.ec646bc6a80742669800.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/styles.3f0db954545253f70a06.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/device.detector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/device.detector.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/icons/luna-player-foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/icons/luna-player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Oswald-VariableFont_wght.88fc6c5b10cd8b2781cb.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ReggaeOne-Regular.25085ba95c26015cc9ff.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/Oswald-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/ReggaeOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es2019.449bedd728ff693d2fd7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es5.449bedd728ff693d2fd7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/polyfills-es2019.2f5bfc386e99a39e8b57.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/polyfills-es5.b73d2d0f5a601773db89.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es2019.f5c11eac5cd79d93af7b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es5.f5c11eac5cd79d93af7b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles.91b55da1dbfbcb8c8c2a.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@R3CN70BM0EJ]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1tzhgKuWQIYtkzvl8nVsGOEfMF6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\Leila\\Documents\\Programming Projects\\Luna\\LunaPlayer\\ng\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Cordova.Build LunaPlayer">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="Build LunaPlayer" type="PhoneGap" factoryName="PhoneGap/Cordova">
-      <option name="myExecutable" value="/usr/local/bin/cordova" />
+      <option name="myExecutable" value="C:\Users\Leila\AppData\Roaming\npm\cordova" />
       <option name="myWorkDir" value="$PROJECT_DIR$" />
       <option name="myCommand" value="run" />
       <option name="myPassParent" value="true" />
@@ -63,9 +115,21 @@
         <option name="PhonegapTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ng/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Cordova.Build LunaPlayer" />
       <item itemvalue="Cordova.Test LunaPlayer" />
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.Angular CLI Server" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,63 +140,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623777935825</updated>
+      <workItem from="1625406220461" duration="15000" />
+      <workItem from="1625410197976" duration="739000" />
+      <workItem from="1625410970399" duration="513000" />
+      <workItem from="1625411703893" duration="14000" />
+      <workItem from="1633707452870" duration="32000" />
+      <workItem from="1660766367287" duration="448000" />
+      <workItem from="1661202915880" duration="3028000" />
+      <workItem from="1661206355584" duration="5127000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="3220" y="524" width="573" height="367" key="#Notifications" timestamp="1623778701955">
-      <screen x="2560" y="0" width="2560" height="1440" />
-    </state>
-    <state x="3220" y="524" width="573" height="367" key="#Notifications/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623778701955" />
-    <state x="363" y="299" width="1084" height="924" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624137291229">
-      <screen x="0" y="32" width="2560" height="1408" />
-    </state>
-    <state x="363" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.2560.1408@0.32.2560.1408" timestamp="1623870644230" />
-    <state x="363" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624137291229" />
-    <state x="2923" y="273" width="1084" height="924" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623785269622" />
-    <state x="3031" y="301" width="978" height="920" key="EnvironmentVariablesDialog" timestamp="1623779071611">
-      <screen x="2560" y="0" width="2560" height="1440" />
-    </state>
-    <state x="3031" y="301" width="978" height="920" key="EnvironmentVariablesDialog/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623779071611" />
-    <state width="1880" height="520" key="GridCell.Tab.0.bottom" timestamp="1624137978926">
-      <screen x="0" y="32" width="2560" height="1408" />
-    </state>
-    <state width="1440" height="370" key="GridCell.Tab.0.bottom/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
-    <state width="1880" height="520" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624137978926" />
-    <state width="1670" height="422" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
-    <state width="1880" height="520" key="GridCell.Tab.0.bottom/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624126900194" />
-    <state width="2514" height="520" key="GridCell.Tab.0.bottom/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1624121630495" />
-    <state width="1880" height="520" key="GridCell.Tab.0.center" timestamp="1624137978926">
-      <screen x="0" y="32" width="2560" height="1408" />
-    </state>
-    <state width="1440" height="370" key="GridCell.Tab.0.center/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
-    <state width="1880" height="520" key="GridCell.Tab.0.center/2560.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624137978926" />
-    <state width="1670" height="422" key="GridCell.Tab.0.center/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
-    <state width="1880" height="520" key="GridCell.Tab.0.center/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624126900194" />
-    <state width="2514" height="520" key="GridCell.Tab.0.center/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1624121630495" />
-    <state width="1880" height="520" key="GridCell.Tab.0.left" timestamp="1624137978926">
-      <screen x="0" y="32" width="2560" height="1408" />
-    </state>
-    <state width="1440" height="370" key="GridCell.Tab.0.left/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
-    <state width="1880" height="520" key="GridCell.Tab.0.left/2560.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624137978926" />
-    <state width="1670" height="422" key="GridCell.Tab.0.left/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
-    <state width="1880" height="520" key="GridCell.Tab.0.left/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624126900194" />
-    <state width="2514" height="520" key="GridCell.Tab.0.left/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1624121630495" />
-    <state width="1880" height="520" key="GridCell.Tab.0.right" timestamp="1624137978926">
-      <screen x="0" y="32" width="2560" height="1408" />
-    </state>
-    <state width="1440" height="370" key="GridCell.Tab.0.right/0.32.2560.1408@0.32.2560.1408" timestamp="1623870548835" />
-    <state width="1880" height="520" key="GridCell.Tab.0.right/2560.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624137978926" />
-    <state width="1670" height="422" key="GridCell.Tab.0.right/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623787841620" />
-    <state width="1880" height="520" key="GridCell.Tab.0.right/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@0.32.2560.1408" timestamp="1624126900194" />
-    <state width="2514" height="520" key="GridCell.Tab.0.right/2560.0.2560.1440/5120.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1624121630495" />
-    <state x="2916" y="250" width="1022" height="737" key="SettingsEditor" timestamp="1623779466515">
-      <screen x="2560" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2916" y="250" width="1022" height="737" key="SettingsEditor/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623779466515" />
-    <state x="3078" y="307" key="run.anything.popup" timestamp="1623778952111">
-      <screen x="2560" y="0" width="2560" height="1440" />
-    </state>
-    <state x="3078" y="307" key="run.anything.popup/2560.0.2560.1440/0.32.2560.1408@2560.0.2560.1440" timestamp="1623778952111" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/library.js" />
+        <option value="$PROJECT_DIR$/ng/src/app/library/implementation/electron.library.service.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
