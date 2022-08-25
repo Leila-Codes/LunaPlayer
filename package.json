@@ -1,0 +1,24 @@
+{
+  "name": "luna-player",
+  "version": "1.0.0",
+  "description": "Tired of ads and/or poorly implemented media player apps on the Play Store? Me too! Let's make a better one! Fun little side project to learn cross-platform development. A Spotify inspired UI for local music on your device.",
+  "scripts": {  },
+  "author": "Lunasphere Entertainment",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "ng",
+    "lib",
+    "platforms/desktop",
+    "platforms/android",
+    "platforms/cloud"
+  ],
+  "os": [
+    "win32",
+    "linux",
+    "android"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
