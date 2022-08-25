@@ -1,53 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="NONE" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be8124b-9446-4468-8234-bb677281519d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ng/src/app/library/implementation/electron.library.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ILibraryScanner.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electron.library.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LunaPlayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LunaPlayer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng/src/app/device.detector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/device.detector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/icons/luna-player-foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/icons/luna-player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Oswald-VariableFont_wght.88fc6c5b10cd8b2781cb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/ReggaeOne-Regular.25085ba95c26015cc9ff.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/Oswald-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/ReggaeOne-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/fonts/static/Oswald-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/main-es2019.449bedd728ff693d2fd7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/main-es5.449bedd728ff693d2fd7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/polyfills-es2019.2f5bfc386e99a39e8b57.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/polyfills-es5.b73d2d0f5a601773db89.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/runtime-es2019.f5c11eac5cd79d93af7b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/runtime-es5.f5c11eac5cd79d93af7b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/styles.91b55da1dbfbcb8c8c2a.css" beforeDir="false" />
-    </list>
+    <list default="true" id="4a6588a3-ee39-4aa1-8a2a-2f8b8314928f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,13 +17,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="1tzhgKuWQIYtkzvl8nVsGOEfMF6" />
+  <component name="ProjectId" id="2DogIp1guI7h0TW8FFEQDU7Uw3C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,94 +35,23 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Leila\\Documents\\Programming Projects\\Luna\\LunaPlayer\\ng\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\admir\\CodingProjects\\LunaPlayer\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cordova.Build LunaPlayer">
-    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
-      <method v="2" />
-    </configuration>
-    <configuration name="Build LunaPlayer" type="PhoneGap" factoryName="PhoneGap/Cordova">
-      <option name="myExecutable" value="C:\Users\Leila\AppData\Roaming\npm\cordova" />
-      <option name="myWorkDir" value="$PROJECT_DIR$" />
-      <option name="myCommand" value="run" />
-      <option name="myPassParent" value="true" />
-      <option name="myPlatform" value="android" />
-      <option name="myExtraArgs" value="" />
-      <option name="hasTarget" value="false" />
-      <option name="target" value="" />
-      <method v="2">
-        <option name="PhonegapTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test LunaPlayer" type="PhoneGap" factoryName="PhoneGap/Cordova">
-      <option name="myExecutable" value="/usr/local/bin/cordova" />
-      <option name="myWorkDir" value="$PROJECT_DIR$" />
-      <option name="myCommand" value="serve" />
-      <option name="myPassParent" value="true" />
-      <option name="myPlatform" value="android" />
-      <option name="myExtraArgs" value="" />
-      <option name="hasTarget" value="false" />
-      <option name="target" value="" />
-      <method v="2">
-        <option name="PhonegapTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Angular CLI Server" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/ng/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Cordova.Build LunaPlayer" />
-      <item itemvalue="Cordova.Test LunaPlayer" />
-      <item itemvalue="JavaScript Debug.Angular Application" />
-      <item itemvalue="npm.Angular CLI Server" />
-    </list>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0be8124b-9446-4468-8234-bb677281519d" name="Default Changelist" comment="" />
-      <created>1623777935825</created>
+      <changelist id="4a6588a3-ee39-4aa1-8a2a-2f8b8314928f" name="Changes" comment="" />
+      <created>1661370776905</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623777935825</updated>
-      <workItem from="1625406220461" duration="15000" />
-      <workItem from="1625410197976" duration="739000" />
-      <workItem from="1625410970399" duration="513000" />
-      <workItem from="1625411703893" duration="14000" />
-      <workItem from="1633707452870" duration="32000" />
-      <workItem from="1660766367287" duration="448000" />
-      <workItem from="1661202915880" duration="3028000" />
-      <workItem from="1661206355584" duration="5127000" />
+      <updated>1661370776905</updated>
+      <workItem from="1661370778370" duration="2573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/library.js" />
-        <option value="$PROJECT_DIR$/ng/src/app/library/implementation/electron.library.service.d.ts" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
