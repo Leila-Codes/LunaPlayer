@@ -1,52 +1,19 @@
-export class Song {
-    title: string
-    path: string
-    album: string
-    artist: string
-    trackNo: number
-    tags: string[] = []
-
-
-    constructor(title: string, path: string, album: string, artist: string, trackNo: number) {
-        this.title = title;
-        this.path = path;
-        this.album = album;
-        this.artist = artist;
-        this.trackNo = trackNo;
-    }
-
-    addTag(tag: string) {
-        this.tags.push(tag);
-    }
-}
-
-export class Album {
-    title: string
-    songs: Song[]
-
-    constructor(title: string, songs: Song[] = []) {
-        this.title = title;
-        this.songs = songs;
-    }
-}
-
-export class Artist {
-    name: string
-    songs: Song[]
-
-    constructor(name: string, songs: Song[] = []) {
-        this.name = name;
-        this.songs = songs;
-    }
-}
+import { Song } from './song'
+import { Album } from './album';
+import { Artist } from './artist';
 
 export class MusicLibrary {
+    // private _songIter: number = 0;
     private _songs: Song[] = []
     private _albums: Map<string, Album> = new Map();
     private _artists: Map<string, Artist> = new Map();
 
-    addSong(song: Song) {
-        this._songs.push(song);
+    registerSong(title: string, path: string, album: string, artist: string, trackNo: number) {
+        const song = new Song(title, path, album, artist, trackNo);
+
+        const songId = this._songs.push(song)
+        song.setId(songId);
+        song.src(`audio://${songId}`)
 
         if (this._albums.has(song.album)) {
             this._albums.get(song.album)?.songs.push(song);
@@ -71,6 +38,10 @@ export class MusicLibrary {
 
     getAllSongs(): Song[] {
         return this._songs;
+    }
+
+    getSongById(songId: number): Song | undefined {
+        return this._songs[songId];
     }
 
     listAlbums(): Album[] {
