@@ -1,0 +1,14 @@
+{
+  "name": "luna-player-cloud",
+  "version": "1.0.0",
+  "description": "Cloud platform integration with Luna Player. Server-side listener on LunaSphere to interconnect your devices. No audio is streamed, but progress, current playing track metdata & progress is streamed. Additionally, adds support for remote control of other devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lunasphere: Entertainment",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  }
+}
