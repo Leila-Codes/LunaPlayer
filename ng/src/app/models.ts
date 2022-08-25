@@ -108,7 +108,17 @@ export class Album implements Selection {
   }
 }
 
-export class Artist extends Album {
+export class Artist implements Selection {
+  _id: string
+  name: string
+  songs: Song[]
+
+  constructor(id : string, name : string, songs: Song[]) {
+    this._id = id;
+    this.name = name;
+    this.songs = songs;
+  }
+
   static fromTags(i: ICommonTagsResult) {
     return new Artist(
       "0",

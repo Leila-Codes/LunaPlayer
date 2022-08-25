@@ -16,5 +16,5 @@ export interface LibraryInterface {
 
   getArtist(artistId: string) : Observable<Artist | undefined>
 
-  getSong(songId: string) : Observable<Song | undefined>
+  getSong(songId: number) : Observable<Song | undefined>
 }

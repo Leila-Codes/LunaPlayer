@@ -1,5 +1,5 @@
 import {Injectable, EventEmitter} from "@angular/core";
-import {Album, Artist, Song, TrackNo} from "../../models";
+import {Album, Artist, Song} from "../../models";
 import {MusicLibrary} from "../library.models";
 
 import {parseBlob} from 'music-metadata-browser'
@@ -113,9 +113,9 @@ export class AndroidLibraryService implements LibraryInterface {
     });
   }
 
-  getSong(songId: string) : Observable<Song | undefined> {
+  getSong(songId: number) : Observable<Song> {
     return new Observable(subscriber => {
-      subscriber.next(this.library.songs.get(songId));
+      subscriber.next(this.library.songs.get(songId.toString()));
     });
   }
 }

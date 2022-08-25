@@ -39,6 +39,8 @@ export class CatalogListComponent implements OnInit {
 
         this.service.getAlbum(id).subscribe((album) => {
           this.entity = album;
+          console.log("Album:", album);
+
         });
 
       } else if (resType == "artist" && id) {
@@ -47,6 +49,7 @@ export class CatalogListComponent implements OnInit {
 
         this.service.getArtist(id).subscribe((artist) => {
           this.entity = artist;
+          console.log("Artist:", artist);
         });
       } else if(resType == "catalog") {
         this.resType = PlayRequestType.SINGLE;
@@ -69,11 +72,15 @@ export class CatalogListComponent implements OnInit {
   }
 
   enqueue(id: string): void {
-    this.player.play(new PlayRequest(
-      id,
-      this.resType,
-      this.entity?._id
-    ))
+    const req = new PlayRequest(
+        id,
+        this.resType,
+        this.entity?._id
+    );
+
+    console.log("play request: ", req);
+
+    this.player.play(req)
   }
 
   longPressHandler(song: Song) {

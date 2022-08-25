@@ -2,5 +2,5 @@
            [icon]="artistIcon"
            [title]="artist.name || 'Unknown Artist'"
            [subtitle]="artist.songs.length + ' Track(s)'"
-           [routerLink]="['/artist', artist._id]">
+           [routerLink]="['/artist', artist.name]">
 </luna-card>

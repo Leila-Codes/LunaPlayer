@@ -14,7 +14,8 @@ export class PlayerService {
   constructor(@Inject("LibraryService") private library: LibraryInterface) {}
 
   play(req: PlayRequest, immediate?: boolean) {
-    this.library.getSong(req.id).subscribe((song) => {
+    this.library.getSong(parseInt(req.id)).subscribe((song) => {
+      console.log("player service found song:", song);
       if (song) {
         if (req.reqType !== PlayRequestType.SINGLE) {
           this.queue.length = 0;
@@ -60,7 +61,7 @@ export class PlayerService {
 
   addToQueue(req: PlayRequest) {
     if (req.reqType === PlayRequestType.SINGLE) {
-      this.library.getSong(req.id).subscribe((song) => {
+      this.library.getSong(parseInt(req.id)).subscribe((song) => {
         if (song)
           // this.queue.push(new QueueEntry(song, QueueFilter.USER));
           this.queue.splice(this.currentIdx + 1, 0, new QueueEntry(song, QueueFilter.USER))

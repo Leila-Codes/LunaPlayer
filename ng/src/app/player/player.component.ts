@@ -42,7 +42,9 @@ export class PlayerComponent implements OnInit {
   canBackward = false;
   canForward = false;
 
-  constructor(private service: PlayerService, @Inject("LibraryService") private library: LibraryInterface) { }
+  constructor(private service: PlayerService, @Inject("LibraryService") private library: LibraryInterface) {
+    this.player.preload = 'metadata';
+  }
 
   ngOnInit(): void {
     this.service.playerEE.subscribe((song: Song) => {
@@ -58,6 +60,8 @@ export class PlayerComponent implements OnInit {
       if (this.nowPlaying) {
         const progress = (this.player.currentTime / this.nowPlaying.duration) * 100;
         this.playerPos = progress.toFixed(1);
+
+        console.log(`time update fired: ${this.player.currentTime} / ${this.nowPlaying.duration} (${this.player.duration}`)
       }
     });
 
@@ -85,10 +89,17 @@ export class PlayerComponent implements OnInit {
 
     if (this.nowPlaying) {
       this.player.src = this.nowPlaying.src || this.nowPlaying.location;
+      console.log("switched player src to: ", this.player.src);
 
       this.player.addEventListener('canplay', () => {
         this.player.play();
       }, {once: true});
+
+      this.player.addEventListener('loadedmetadata', () => {
+        if (this.nowPlaying)
+          this.nowPlaying.duration = this.player.duration;
+      }, {once: true});
+
     } else {
       this.player.currentTime = 0;
       this.player.pause();

@@ -18,22 +18,16 @@ export class ElectronLibraryService implements LibraryInterface {
     getAllSongs(): Observable<Song[]> {
         return from(window.electronAPI.getSongs());
     }
-    getAlbum(albumId: string): Observable<Album | undefined> {
-        return new Observable<Album | undefined>((subscriber) => {
-            subscriber.next(undefined);
-        });
+    getAlbum(album_name: string): Observable<Album | undefined> {
+        return from (window.electronAPI.getAlbumDetail(album_name));
     }
 
-    getArtist(artistId: string): Observable<Artist | undefined> {
-        return new Observable<Artist | undefined>((subscriber) => {
-            subscriber.next(new Artist(artistId, "test", []))
-        })
+    getArtist(artist_name: string): Observable<Artist | undefined> {
+        return from (window.electronAPI.getArtistDetail(artist_name));
     }
 
-    getSong(songId: string): Observable<Song | undefined> {
-        return new Observable<Song | undefined>((subscriber) => {
-            subscriber.next(undefined);
-        });
+    getSong(songId: number): Observable<Song | undefined> {
+        return from (window.electronAPI.getSongDetail(songId))
     }
 
 }

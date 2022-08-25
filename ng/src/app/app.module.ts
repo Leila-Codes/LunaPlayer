@@ -15,7 +15,6 @@ import {PlayerComponent} from './player/player.component';
 import {DeviceType, getDeviceType} from "./device.detector";
 
 import {AndroidLibraryService} from "./library/implementation/android.library.service";
-import {RestLibraryService} from "./library/implementation/rest.library.service";
 import {PlayerService} from "./player/player.service";
 import {AppInformationComponent} from './app-information/app-information.component';
 import {LunaUIKitModule} from "./luna-uikit/luna-uikit.module";
@@ -29,10 +28,9 @@ switch (getDeviceType()) {
     musicLibraryImpl = AndroidLibraryService;
     break;
   case DeviceType.ELECTRON:
+  default:
     musicLibraryImpl = ElectronLibraryService;
     break;
-  default:
-    musicLibraryImpl = RestLibraryService;
 }
 
 @NgModule({
