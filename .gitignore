@@ -1,15 +1,20 @@
 .DS_Store
 
 # Node Modules (NPM deps)
+node_modules
 ng/node_modules
+ng/.angular/cache
 platforms/cordova/node_modules
 platforms/electron/node_modules
 
-# Cordova
-platforms/cordova/plugins/
-platforms/cordova/platforms/
-platforms/cordova/www
+# Android Platform
+platforms/android/plugins/
+platforms/android/platforms/
+platforms/android/www
 
-# Electron
-platforms/electron/dist
-platforms/electron/www
+# Desktop Platform (Electron)
+platforms/desktop/dist
+platforms/desktop/www
+
+# Cloud Platform (Web Command & Control)
+platforms/cloud/node_modules
