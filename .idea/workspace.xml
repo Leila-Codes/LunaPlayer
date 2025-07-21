@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6588a3-ee39-4aa1-8a2a-2f8b8314928f" name="Changes" comment="" />
+    <list default="true" id="4a6588a3-ee39-4aa1-8a2a-2f8b8314928f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/progress.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng/src/app/library/implementation/mock.library.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/album.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/album.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/artist.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/artist.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/library.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/library.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/progress.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/scanner.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scanner.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/song.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/song.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/error/error.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/error/error.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/error/error.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/error/error.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/library/implementation/android.library.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/library/implementation/android.library.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/library/implementation/electron.library.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/library/implementation/electron.library.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/library/implementation/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/library/implementation/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/library/library.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/library/library.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/luna-uikit/overlay/overlay.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/luna-uikit/overlay/overlay.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/app/luna-uikit/overlay/overlay.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/app/luna-uikit/overlay/overlay.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/custom-typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/cordova-plugin-permissions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/desktop/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/desktop/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/desktop/src/library.scanner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/desktop/src/library.scanner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,28 +45,40 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2DogIp1guI7h0TW8FFEQDU7Uw3C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\admir\\CodingProjects\\LunaPlayer\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\admir\\CodingProjects\\LunaPlayer\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admir\CodingProjects\LunaPlayer\lib" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,10 +88,24 @@
       <option name="presentableId" value="Default" />
       <updated>1661370776905</updated>
       <workItem from="1661370778370" duration="2573000" />
+      <workItem from="1661526905135" duration="1541000" />
+      <workItem from="1661528475828" duration="8705000" />
+      <workItem from="1661706605893" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

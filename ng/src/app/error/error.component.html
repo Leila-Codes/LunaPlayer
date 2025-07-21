@@ -1,5 +1,6 @@
 <div class="error-container">
   <fa-icon class="fa-4x" [icon]="errorIcon"></fa-icon>
   <h3>Error Occurred</h3>
-  <div class="luna-btn" (click)="goHome()"></div>
+  <p>{{ message }}</p>
+  <div class="luna-btn" (click)="close()"></div>
 </div>

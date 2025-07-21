@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {SelectionService} from "../../selection-menu/selection.service";
 
 @Component({
@@ -7,6 +7,7 @@ import {SelectionService} from "../../selection-menu/selection.service";
   styleUrls: ['./overlay.component.css']
 })
 export class OverlayComponent {
+  @Input() mouseClickCloses: boolean = false
   isOpen = false;
 
   constructor() {

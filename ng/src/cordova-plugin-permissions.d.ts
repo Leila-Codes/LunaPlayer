@@ -1,4 +1,4 @@
-/// <reference path="../node_modules/cordova-plugin-file/types/index.d.ts"/>
+/// <reference path="../../node_modules/cordova-plugin-file/types/index.d.ts"/>
 // Type definitions for Apache Cordova permissions plugin
 // Project: https://github.com/NeoLSN/cordova-plugin-android-permissions
 // Definitions by: Microsoft Open Technologies Inc <http://msopentech.com>

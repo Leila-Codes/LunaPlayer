@@ -1,11 +1,13 @@
-import {EventEmitter, Injectable} from "@angular/core";
-import {LibraryInterface} from "../library.interface";
-import {Album, Artist, Song} from "../../models";
-import {Observable, from} from "rxjs";
+import { EventEmitter, Injectable } from '@angular/core';
+import { LibraryInterface } from '../library.interface';
+import { Album, Artist, Song } from '../../models';
+import { from, Observable } from 'rxjs';
+import { ScanProgress } from 'luna-player-lib/progress.model';
+
 
 @Injectable()
 export class ElectronLibraryService implements LibraryInterface {
-    updated: EventEmitter<boolean> = new EventEmitter<boolean>();
+    updated: EventEmitter<ScanProgress> = new EventEmitter();
 
     getAllAlbums(): Observable<Album[]> {
         return from(window.electronAPI.getAlbums());

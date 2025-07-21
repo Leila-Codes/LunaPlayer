@@ -1,0 +1,18 @@
+<div class="dialog-layout">
+    <div class="dialog-header">
+        <h3>
+            <fa-icon [icon]="loadingIcon"></fa-icon>&nbsp;
+            Scanning Library
+        </h3>
+    </div>
+    <div class="dialog-content">
+        <div class="spinner"></div>
+        <p>One moment whilst we discover songs on your device...</p>
+        <small>{{ processed }} / {{ discovered }}</small>
+    </div>
+    <div class="footer">
+        <div class="progress-bar">
+            <div class="progress-filler" [ngStyle]="{'width': progressWidth}"></div>
+        </div>
+    </div>
+</div>

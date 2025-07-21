@@ -1,6 +1,6 @@
 import { app, BrowserWindow, ipcMain, protocol } from 'electron';
 import { createReadStream, statSync } from 'fs';
-import { MusicLibrary } from 'luna-player-lib/dist/library';
+import { MusicLibrary } from 'luna-player-lib/library';
 import { join } from 'path';
 import { DesktopLibraryScanner } from './library.scanner';
 

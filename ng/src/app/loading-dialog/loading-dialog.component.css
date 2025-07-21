@@ -1,0 +1,82 @@
+.dialog-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 10px 20px 20px;
+
+    border: 1px solid var(--luna-blue-2);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 3px var(--luna-blue-1);
+}
+
+.dialog-header {
+    color: var(--luna-text);
+
+    /*border-top: 2px dotted var(--luna-blue-2);*/
+    border-bottom: 2px dotted var(--luna-blue-2);
+
+    margin: -9px -10px;
+    text-align: center;
+    /*padding: 2px 2px;*/
+}
+
+.dialog-header > h3 {
+    margin-top: 0; margin-bottom: 8px;
+}
+
+.dialog-content {
+    text-align: center;
+}
+
+@keyframes spinner-spin {
+    0% {
+        transform: rotate(0);
+    }
+    /*50% {*/
+    /*    transform: rotate(180deg) scale(1.2);*/
+    /*}*/
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    width: 35px; height: 35px;
+    animation: spinner-spin 1s infinite linear;
+
+    border-radius: 50%;
+
+    margin: 30px auto 10px;
+    border-right: 3px solid var(--luna-blue-3)
+}
+
+.progress-bar {
+    height: 6px;
+    width: 100%;
+    background: var(--luna-blue-2);
+
+    border-radius: 6px;
+}
+
+.progress-filler {
+    height: 100%;
+    width: 0;
+    /*box-shadow: 0 0 0 2px rgba(108, 183, 255, 0.3);*/
+    background: var(--luna-blue-3);
+
+    /*animation: progress-fill 8s infinite linear;*/
+    transition: width .25s;
+}
+
+@keyframes progress-fill {
+    from {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}

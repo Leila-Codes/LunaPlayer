@@ -8,7 +8,7 @@
   "files": [
     "src/main.ts",
     "src/polyfills.ts",
-    "node_modules/@types/cordova/index.d.ts"
+    "../node_modules/@types/cordova/index.d.ts"
   ],
   "include": [
     "src/**/*.d.ts"

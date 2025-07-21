@@ -1,10 +1,10 @@
-import {MusicLibrary} from "./library.models";
+import { ScanProgress } from 'luna-player-lib/progress.model'
 import {Album, Artist, Song} from "../models";
 import {EventEmitter} from "@angular/core";
 import {Observable} from "rxjs";
 
 export interface LibraryInterface {
-  updated: EventEmitter<boolean>
+  updated: EventEmitter<ScanProgress>
 
   getAllAlbums(): Observable<Album[]>
 

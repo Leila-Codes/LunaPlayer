@@ -2,7 +2,8 @@ import {Album, Artist, Song} from "../../models";
 
 declare global {
     interface Window {
-        electronAPI: electronPlayerWrapper
+        electronAPI: electronPlayerWrapper,
+        // cordova: Cordova
     }
 }
 export interface electronPlayerWrapper {

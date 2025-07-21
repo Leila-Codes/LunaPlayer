@@ -1,10 +1,10 @@
 import { readdir } from 'fs';
-import { ScanProgress } from 'luna-player-lib/src/progress.model';
-import { LibraryScanner } from 'luna-player-lib/src/scanner.interface';
+import { ScanProgress } from '../luna-library-lib/progress.model';
+import { LibraryScanner } from '../luna-library-lib/scanner.interface';
 import * as mm from 'music-metadata';
 import { homedir } from 'os';
 import { join, sep } from 'path';
-import { MusicLibrary } from 'luna-player-lib/src/library';
+import { MusicLibrary } from '../luna-library-lib/library';
 import { IpcMain } from 'electron'
 
 export class DesktopLibraryScanner extends LibraryScanner {
